@@ -1,0 +1,64 @@
+2020-Jul-09 16:13:04 PM [main] INFO  com.wu.wutelservice.WUTelServiceApplication - Starting WUTelServiceApplication on DESKTOP-7ID56BH with PID 11776 (F:\RealProjectDev\WUTel-Service\target\classes started by sh in F:\RealProjectDev\WUTel-Service)
+2020-Jul-09 16:13:04 PM [main] DEBUG com.wu.wutelservice.WUTelServiceApplication - Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-Jul-09 16:13:04 PM [main] INFO  com.wu.wutelservice.WUTelServiceApplication - No active profile set, falling back to default profiles: default
+2020-Jul-09 16:13:06 PM [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-Jul-09 16:13:06 PM [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1797 ms
+2020-Jul-09 16:13:08 PM [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 6 mappings in 'requestMappingHandlerMapping'
+2020-Jul-09 16:13:08 PM [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-Jul-09 16:13:08 PM [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-Jul-09 16:13:08 PM [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-Jul-09 16:13:09 PM [main] INFO  com.wu.wutelservice.WUTelServiceApplication - Started WUTelServiceApplication in 5.255 seconds (JVM running for 6.776)
+2020-Jul-09 16:13:18 PM [http-nio-3344-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Jul-09 16:13:18 PM [http-nio-3344-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2020-Jul-09 16:13:18 PM [http-nio-3344-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-Jul-09 16:13:18 PM [http-nio-3344-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2020-Jul-09 16:13:18 PM [http-nio-3344-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/swagger-ui.html", parameters={}
+2020-Jul-09 16:13:18 PM [http-nio-3344-exec-3] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-Jul-09 16:13:18 PM [http-nio-3344-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/css/typography.css", parameters={}
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Thu Jul 09 16:13:21 IST 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+2020-Jul-09 16:13:21 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/images/favicon-32x32.png", parameters={}
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-6] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@409466e1]
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/swagger-resources", parameters={}
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@6539fa29]]
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-Jul-09 16:13:24 PM [http-nio-3344-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v2/api-docs", parameters={}
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json;charset=utf-8', given [application/json;charset=utf-8, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@14f4a5e4]
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@74a5fbba]
+2020-Jul-09 16:13:25 PM [http-nio-3344-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-Jul-09 16:15:47 PM [http-nio-3344-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/customer/insert", parameters={}
+2020-Jul-09 16:15:47 PM [http-nio-3344-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.wu.controller.CustomerController#saveCustomer(CustomerDto)
+2020-Jul-09 16:15:47 PM [http-nio-3344-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [CustomerDto [phoneNo=8765678909, name=Jack, email=jack@gmail.com, age=20, gender=Male, password=de34 (truncated)...]
+2020-Jul-09 16:15:47 PM [http-nio-3344-exec-1] INFO  com.wu.dao.impl.CustomerDaoImpl - Save result for customerDto : CustomerDto [phoneNo=8765678909, name=Jack, email=jack@gmail.com, age=20, gender=Male, password=de34#5, address=Pune]is : {}0
+2020-Jul-09 16:15:47 PM [http-nio-3344-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-Jul-09 16:15:47 PM [http-nio-3344-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [true]
+2020-Jul-09 16:15:47 PM [http-nio-3344-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2020-Jul-09 16:37:05 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/css/typography.css", parameters={}
+2020-Jul-09 16:37:05 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2020-Jul-09 16:37:05 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2020-Jul-09 16:37:05 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2020-Jul-09 16:37:05 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2020-Jul-09 16:37:05 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-Jul-09 16:37:06 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-Jul-09 16:37:06 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Thu Jul 09 16:37:05 IST 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+2020-Jul-09 16:37:06 PM [http-nio-3344-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
